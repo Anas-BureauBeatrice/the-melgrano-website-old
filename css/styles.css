@@ -1,0 +1,59 @@
+.launching-soon-melgrano-web {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--background-color);
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  font-size: var(--base-font-size);
+  color: var(--primary-color);
+  font-family: var(--font-red-hat-display);
+  padding: var(--base-padding);
+}
+
+.content {
+  display: flex;
+  flex-grow: 1;
+  align-items: center; 
+  justify-content: center; 
+}
+
+.vector-icon {
+  max-width: 90%;
+  height: auto;
+}
+
+.coming-soon {
+  letter-spacing: 0.15em;
+  font-size: 1.125rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 4rem;
+}
+
+
+@media (max-width: 768px) {
+  :root {
+    font-size: 0.9 rem;
+  }
+  .vector-icon {
+    max-width: 80%;
+  }
+  .coming-soon {
+    margin-bottom: 15rem;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    font-size: 0.6rem;
+  }
+  .vector-icon {
+    max-width: 70%;
+  }
+  .coming-soon {
+    margin-bottom: 10rem;
+  }
+}

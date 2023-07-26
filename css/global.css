@@ -1,0 +1,18 @@
+:root {
+  /* fonts */
+  --font-red-hat-display: "Red Hat Display";
+  --background-color: #630e23;
+  --primary-color: #90775d;
+  --base-font-size: 26px;
+  --base-padding: 2rem;
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+  overflow: hidden;
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  height: 100vh;
+}
